@@ -9,26 +9,26 @@
 </head>
 <body>
 
-<nav class="navbar">
-    <div class="container nav-content">
-        <div class="nav-left">
-            <div class="logo">DANI<span>RODRÍGUEZ</span></div>
-            <div class="main-menu">
-                <a href="#sobre-mi" class="active">Sobre mí</a>
-                <a href="#trayectoria">Trayectoria</a>
-                <a href="#educacion">Educación</a>
-                <a href="#certificaciones">Certificaciones</a>
-                <a href="#proyectos">Proyectos</a>
+    <nav class="navbar">
+        <div class="container nav-content">
+            <div class="nav-left">
+                <div class="logo">DANI<span>RODRÍGUEZ</span></div>
+                <div class="main-menu">
+                    <a href="#sobre-mi" class="active">Sobre mí</a>
+                    <a href="#trayectoria">Trayectoria</a>
+                    <a href="#educacion">Educación</a>
+                    <a href="#certificaciones">Certificaciones</a>
+                    <a href="#proyectos">Proyectos</a>
+                </div>
+            </div>
+
+            <div class="nav-right">
+                <button id="theme-toggle" class="btn-icon" title="Cambiar modo">🌓</button>
+                <a href="#" class="btn-login" id="contact-trigger">Contacto</a>
+                <a href="./docs/cvDanielRodriguez.pdf" download class="btn-client">Descargar CV</a>
             </div>
         </div>
-
-        <div class="nav-right">
-            <button id="theme-toggle" class="btn-icon">🌓</button>
-            <a href="mailto:danielrodrifern@gmail.com" class="btn-login">Contacto</a>
-            <a href="./docs/cvDanielRodriguez.pdf" download class="btn-client">Descargar CV</a>
-        </div>
-    </div>
-</nav>
+    </nav>
 
     <main class="container">
         <section class="hero">
@@ -54,18 +54,17 @@
                     <p>Además, mi faceta como docente me permite comunicar arquitecturas complejas de forma sencilla, liderando equipos hacia la excelencia técnica.</p>
                 </div>
                 <div class="skills-grid">
-                    <div class="skill-tag">Salesforce</div>
-                    <div class="skill-tag">SQL</div>
-                    <div class="skill-tag">Apex & LWC</div>
-                    <div class="skill-tag">Kotlin</div>
-                    <div class="skill-tag">Java</div>
-                    <div class="skill-tag">Powercenter</div>
-                    <div class="skill-tag">Agile&Jira</div>
-                    <div class="skill-tag">Git</div>
-                    <div class="skill-tag">Gestion de proyectos</div>
-                    <div class="skill-tag">SonarQube</div>
-                    <div class="skill-tag">Kyndryl</div>
-
+                    <span class="skill-tag">Salesforce</span>
+                    <span class="skill-tag">SQL</span>
+                    <span class="skill-tag">Apex & LWC</span>
+                    <span class="skill-tag">Kotlin</span>
+                    <span class="skill-tag">Java</span>
+                    <span class="skill-tag">Powercenter</span>
+                    <span class="skill-tag">Agile & Jira</span>
+                    <span class="skill-tag">Git</span>
+                    <span class="skill-tag">Gestión de proyectos</span>
+                    <span class="skill-tag">SonarQube</span>
+                    <span class="skill-tag">AWS</span>
                 </div>
             </div>
         </section>
@@ -154,8 +153,8 @@
         <div class="education-card">
             <div class="edu-icon">⚙️</div>
             <div class="edu-info">
-                <h3>Administración de Sistemas Informáticos en Red (ASIR)</h3>
-                <p class="edu-school">Grado Superior</p>
+                <h3>Sistemas Microinformáticos y Redes</h3>
+                <p class="edu-school">Grado Medio</p>
                 <span class="edu-tag">Sistemas & Redes</span>
             </div>
         </div>
@@ -206,29 +205,25 @@
             <div class="cert-content">
                 <h3>Desarrollador Principiante</h3>
                 <p>Trailhead by Salesforce</p>
-                <span class="cert-date">Ruta activa</span>
+                <span class="cert-date">Expedición: Marzo. 2025</span>
             </div>
         </div>
 
     </div>
 </section>
 
-   
 
-
-
-        
         <section id="proyectos" class="section">
             <h2 class="section-title">Proyectos destacados</h2>
             <div class="projects-grid">
                 <div class="project-card">
                     <h3>Controlador Aéreo</h3>
-                    <p>Simulador de gestión en tiempo real desarrollado en Java para optimizar rutas de aterrizaje.</p>
+                    <p>Simulador de gestión en tiempo real desarrollado en Java.</p>
                     <a href="#" class="project-link">Ver proyecto →</a>
                 </div>
                 <div class="project-card">
                     <h3>Data Pipeline Financiero</h3>
-                    <p>Arquitectura ETL para el procesamiento masivo de transacciones bancarias.</p>
+                    <p>Arquitectura ETL para procesamiento masivo de datos.</p>
                     <a href="#" class="project-link">Ver proyecto →</a>
                 </div>
             </div>
@@ -241,10 +236,64 @@
         </div>
     </footer>
 
+    <div id="contact-modal" class="modal-overlay">
+        <div class="modal-card">
+            <button class="modal-close" id="close-modal">&times;</button>
+            <div class="modal-header">
+                <div class="logo">DANI<span>RODRÍGUEZ</span></div>
+                <p>¿Hablamos? Estaré encantado de atenderte.</p>
+            </div>
+            <div class="modal-body">
+                <div class="contact-item">
+                    <span class="contact-icon">📧</span>
+                    <div>
+                        <label>Email</label>
+                        <a href="mailto:danielrodrifern@gmail.com">danielrodrifern@gmail.com</a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">📍</span>
+                    <div>
+                        <label>Ubicación</label>
+                        <p>Madrid, España</p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a href="mailto:danielrodrifern@gmail.com" class="btn-client">Enviar mensaje</a>
+            </div>
+        </div>
+    </div>
+
     <script>
-        const btn = document.getElementById('theme-toggle');
-        btn.addEventListener('click', () => {
+        // Elementos
+        const themeBtn = document.getElementById('theme-toggle');
+        const contactBtn = document.getElementById('contact-trigger');
+        const modal = document.getElementById('contact-modal');
+        const closeBtn = document.getElementById('close-modal');
+
+        // Modo Oscuro
+        themeBtn.addEventListener('click', () => {
             document.body.classList.toggle('dark-mode');
+            const isDark = document.body.classList.contains('dark-mode');
+            localStorage.setItem('theme', isDark ? 'dark' : 'light');
+        });
+
+        // Cargar tema guardado
+        if (localStorage.getItem('theme') === 'dark') {
+            document.body.classList.add('dark-mode');
+        }
+
+        // Modal
+        contactBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            modal.classList.add('active');
+        });
+
+        closeBtn.addEventListener('click', () => modal.classList.remove('active'));
+
+        window.addEventListener('click', (e) => {
+            if (e.target === modal) modal.classList.remove('active');
         });
     </script>
 </body>
