@@ -330,3 +330,31 @@ h1 {
     h1 { font-size: 2.8rem; }
     .timeline-item { grid-template-columns: 1fr; gap: 10px; }
 }
+
+/* Estilos para la lista de funciones en Trayectoria */
+.duties-list {
+    margin-top: 15px;
+    padding-left: 18px;
+    list-style-type: none; /* Quitamos el punto estándar */
+}
+
+.duties-list li {
+    position: relative;
+    margin-bottom: 8px;
+    font-size: 0.95rem;
+    color: var(--text-gray);
+}
+
+/* Añadimos un pequeño guion azul estilo BBVA */
+.duties-list li::before {
+    content: "—";
+    position: absolute;
+    left: -20px;
+    color: var(--bbva-blue);
+    font-weight: bold;
+}
+
+.timeline-desc p {
+    font-weight: 500;
+    color: var(--text-main);
+}
