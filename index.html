@@ -1,419 +1,312 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dani Rodríguez</title>
-    <link rel="stylesheet" href="styles/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="icon" href="img/octocat.png">
+    <title>Daniel Rodríguez | Portfolio Profesional</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
 </head>
-<body class="main-content">
-    <header class="container header active" id="home">
-        <div class="header-content">
-            <div class="left-header">
-                <div class="h-shape"></div>
-                <div class="image">
-                    <img src="img/fotoPerfil.jpg" alt="">
+<body>
+
+    <nav class="navbar">
+        <div class="container nav-content">
+            <div class="nav-left">
+                <div class="logo">DANI<span>RODRÍGUEZ</span></div>
+                <div class="main-menu">
+                    <a href="#sobre-mi" class="active">Sobre mí</a>
+                    <a href="#trayectoria">Trayectoria</a>
+                    <a href="#educacion">Educación</a>
+                    <a href="#certificaciones">Certificaciones</a>
+                    <a href="#proyectos">Proyectos</a>
                 </div>
             </div>
-            <div class="right-header">
-                <h1 class="name">
-                    Hola 👋, Soy <span>Dani Rodríguez.</span>
-                    Estudiante de Desarrollo de Aplicaciones Multiplataforma
-                </h1>
-                <p>
-                    Actualmente soy Estudiante de Desarrollo de Aplicaciones Multiplataforma en el 
-                    IES Luis Vives de Leganés - Madrid. Además soy Técnico en Sistemas Microinformáticos y 
-                    Redes.
-                </p>
-                <div class="btn-con">
-                    <a href="docs/cvDanielRodriguez.pdf" class="main-btn">
-                        <span class="btn-text">Descargar CV</span>
-                        <span class="btn-icon"><i class="fas fa-download"></i></span>
-                    </a>
+
+            <div class="nav-right">
+                <button id="theme-toggle" class="btn-icon" title="Cambiar modo">🌓</button>
+                <a href="#" class="btn-login" id="contact-trigger">Contacto</a>
+                <a href="./docs/cvDanielRodriguez.pdf" download class="btn-client">Descargar CV</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section class="hero">
+    <div class="hero-text">
+        <span class="eyebrow">Tech Specialist ERP/CRM - Salesforce</span>
+        <h1>Ingeniería que impulsa tu negocio.</h1>
+        <p>Especialista en convertir datos complejos en soluciones estratégicas. Actualmente desarrollando el futuro digital en <strong>BBVA</strong>.</p>
+        
+        <a href="https://www.linkedin.com/in/danielrodriguezfern/" target="_blank" class="btn-main">Más información</a>
+        
+        <p class="hero-footer">Basado en Madrid. Disponible para proyectos remotos y presenciales.</p>
+    </div>
+    <div class="hero-image">
+        <div class="image-card">
+            <img src="./img/photoProfile.jpeg" alt="Daniel Rodríguez">
+        </div>
+    </div>
+</section>
+
+        <section id="sobre-mi" class="section">
+            <h2 class="section-title">Sobre mí</h2>
+            <div class="about-grid">
+                <div class="about-content">
+                    <p>Soy un profesional especializado en la <strong>administración y desarrollo de soluciones en Salesforce</strong>, con una sólida trayectoria optimizando procesos de negocio en el sector financiero. Mi enfoque se centra en maximizar la eficiencia de la plataforma mediante una configuración robusta y una arquitectura escalable.</p>
+                    <p>Actualmente, formo parte del equipo técnico de <strong>BBVA</strong>, donde gestiono evolutivos críticos para el CRM, resolviendo desafíos técnicos complejos y asegurando la excelencia operativa. Mi experiencia como docente me permite, además, traducir necesidades de negocio en soluciones técnicas claras y liderar la formación de equipos en el ecosistema Salesforce.</p>
+                </div>
+                <div class="skills-grid">
+                    <span class="skill-tag">Salesforce</span>
+                    <span class="skill-tag">SQL</span>
+                    <span class="skill-tag">Apex & LWC</span>
+                    <span class="skill-tag">Kotlin</span>
+                    <span class="skill-tag">Java</span>
+                    <span class="skill-tag">Powercenter</span>
+                    <span class="skill-tag">Agile & Jira</span>
+                    <span class="skill-tag">Git</span>
+                    <span class="skill-tag">Gestión de proyectos</span>
+                    <span class="skill-tag">SonarQube</span>
+                    <span class="skill-tag">AWS</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="trayectoria" class="section">
+            <h2 class="section-title">Trayectoria profesional</h2>
+            <div class="timeline">
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">Septiembre 2024 - Actualidad</div>
+                    <div class="timeline-info">
+                        <h3>Tech Specialist ERP/CRM - Salesforce · BBVA Technology S.L.U.</h3>
+                        <div class="timeline-desc">
+                            <p>Soporte transversal a líneas de negocio en el desarrollo de evolutivos para Salesforce CRM Gestor.</p>
+                            <ul class="duties-list">
+                                <li>Gestión y tratamiento de incidencias mediante correctivos de código en Salesforce y Powercenter (ETL).</li>
+                                <li>Resolución de deuda técnica detectada por herramientas de evaluación de código (Chimera, SonarQube).</li>
+                                <li>Análisis y tratamiento de datos desde AWS para auditorías y procesos internos.</li>
+                                <li>Apertura y seguimiento completo de Modelos de solución de arquitectura (MSA).</li>
+                                <li>Implementación de flujos de testing continuos (funcionales, regresión y validación).</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">Septiembre 2023 - Diciembre 2024</div>
+                    <div class="timeline-info">
+                        <h3>Data Engineer & Salesforce Dev · BBVA Technology S.L.U.</h3>
+                        <div class="timeline-desc">
+                            <p>Etapa enfocada en la línea de negocio de capacidades y herramientas comerciales, área de Data ETL y desarrollo Salesforce.</p>
+                            <ul class="duties-list">
+                                <li>Coordinador del equipo de Data, implementando mejoras en la metodología de trabajo basadas en Agile.</li>
+                                <li>Responsable de las implantaciones: gestión de ventanas de despliegue y elaboración de documentación técnica/funcional.</li>
+                                <li>Desarrollo de procesos ETL complejos utilizando tecnología Powercenter.</li>
+                                <li>Aseguramiento de la integridad de datos en el trasvase entre sistemas CRM y entornos de analítica.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">Marzo 2021 - Junio 2021</div>
+                    <div class="timeline-info">
+                        <h3>Técnico en Seguridad Informática · GhM Soluciones Informáticas S.L.</h3>
+                        <div class="timeline-desc">
+                            <p>Administración de seguridad perimetral y soporte técnico corporativo.</p>
+                            <ul class="duties-list">
+                                <li>Implementación de firewalls SonicWall, políticas de seguridad avanzadas y configuración de VPN.</li>
+                                <li>Administración de Active Directory (AD) y sistemas de control horario.</li>
+                                <li>Planificación del proceso de implementación y elaboración de documentación técnica.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+            <div class="timeline-date"> Septiembre 2022 -  Marzo 2025</div>
+            <div class="timeline-info">
+                <h3>Profesor Especialista en FP Informática · Clases Particulares</h3>
+                <div class="timeline-desc">
+                    <p>Formación personalizada y refuerzo técnico para alumnos de Grados Medios y Superiores.</p>
+                    <ul class="duties-list">
+                        <li>Impartición de módulos críticos en <strong>ASIR, DAM y DAW</strong>: Bases de Datos, Programación (Java/Python), Sistemas Operativos y Redes.</li>
+                        <li>Apoyo técnico en el Grado Medio de <strong>Sistemas Microinformáticos y Redes (SMR)</strong>, cubriendo montaje, mantenimiento y configuración de servicios.</li>
+                        <li>Preparación de exámenes prácticos y tutorización de Proyectos de Fin de Ciclo, enfocados en metodologías limpias y buenas prácticas de desarrollo.</li>
+                        <li>Adaptación de conceptos complejos de ingeniería (SQL, lógica de programación) a niveles académicos, mejorando el rendimiento de los alumnos.</li>
+                    </ul>
                 </div>
             </div>
         </div>
-    </header>
-    <main>
-        <section class="container about" id="about">
-            <div class="main-title">
-                <h2>Sobre <span>mi</span><span class="bg-text">Mis Estadísticas</span></h2>
-            </div>
-            <div class="about-container">
-                <div class="left-about">
-                    <h4>Información sobre mí</h4>
-                    <p>
-                        Me gusta el mundo de la progrmación, el desarrollo de código de la aplicación, diseño de la interfaz...
-                        Antes de comenzar en el mundo laboral de la programación me gustaría realizar la Ingeniería Informática en la UNED. Y en el futuro 
-                        me gustaría crear una aplicación destinada a la gestión de empresas, gestionable desde un móvil, tablet u ordeanador. Después de años dedicandome al desarrollo,
-                        me gustaría ejercer como profesor en Ciclos de Grado Medio y Grado Superior, enseñando y transmitiendo mis conocimientos.<br /> <br /> En mi tiempo libre me gusta escuchar musica ♬, estar con mi familia y amigos 👨‍👧‍👦, 
-                        perderme por el mundo viajando ✈, ver series/peliculas 🎬 y en cuanto puedo en la playa descansando y disfrutando 🚣.
-
-                    </p>
-                    <div class="btn-con">
-                        <a href="docs/cvDanielRodriguez.pdf" class="main-btn">
-                            <span class="btn-text">Descargar CV</span>
-                            <span class="btn-icon"><i class="fas fa-download"></i></span>
-                        </a>
-                    </div>
-                </div>
-                <div class="right-about">
-                    <div class="about-item">
-                        <div class="abt-text">
-                            <p class="large-text">6</p>
-                            <p class="small-text">Proyectos <br /> Completados</p>
-                        </div>
-                    </div>
-                    <div class="about-item">
-                        <div class="abt-text">
-                            <p class="large-text">10</p>
-                            <p class="small-text">Meses de Experiencia <br /> </p>
-                        </div>
-                    </div>
-                    <div class="about-item">
-                        <div class="abt-text">
-                            <p class="large-text">3</p>
-                            <p class="small-text">Menciones Honorificas <br /></p>
-                        </div>
-                    </div>
-                    <div class="about-item">
-                        <div class="abt-text">
-                            <p class="large-text">4</p>
-                            <p class="small-text">Planificación de tareas de équipo <br /></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="about-stats">
-                <h4 class="stat-title">Mis habilidades</h4>
-                <div class="progress-bars">
-                    <div class="progress-bar">
-                        <p class="prog-title">Kotlin</p>
-                        <div class="progress-con">
-                            <p class="prog-text">70%</p>
-                            <div class="progress">
-                                <span class="html"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">Java</p>
-                        <div class="progress-con">
-                            <p class="prog-text">70%</p>
-                            <div class="progress">
-                                <span class="css"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">JavaScript</p>
-                        <div class="progress-con">
-                            <p class="prog-text">20%</p>
-                            <div class="progress">
-                                <span class="js"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">HTML</p>
-                        <div class="progress-con">
-                            <p class="prog-text">70%</p>
-                            <div class="progress">
-                                <span class="react"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">CSS</p>
-                        <div class="progress-con">
-                            <p class="prog-text">70%</p>
-                            <div class="progress">
-                                <span class="node"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">SQL</p>
-                        <div class="progress-con">
-                            <p class="prog-text">70%</p>
-                            <div class="progress">
-                                <span class="python"></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <h4 class="stat-title">Mi Línea del Tiempo</h4>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-                    <p class="tl-duration">SEPTIEMBRE 2022 - ACTUALIDAD</p>
-                    <h5>Profesor de Informática en ESO/Bachillerato/FP <span> Tus Clases Particulares</span></h5>
-                    <p>
-                        Profesor en: ESO, Bachillerato y FP. Impartiendo clases de: Programación, Bases de Datos, Sistemas Informáticos, Lenguaje de Marcas, Entornos de Desarrollo y Servicios en red.
-                    </p>
-                </div>
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-                    <p class="tl-duration">JUNIO 2021 - JUNIO 2021</p>
-                    <h5>Técnico Informático<span> - GhM Soluciones Informáticas</span></h5>
-                    <p>
-                        Durante este período me encargaba de configurar e implementar Firewall´s en clientes con las funciones de: administración 
-                        de políticas de seguridad, servicios de seguridad y configuración de VPN. También realizaba las funciones de HelpDesk 
-                        a los clientes.
-                    </p>
-                </div>
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-                    <p class="tl-duration">MARZO 2021 - JUNIO 2021</p>
-                    <h5>Técnico Informático en Prácticas<span> - GhM Soluciones Informáticas</span></h5>
-                    <p>
-                       Durante el periodo en prácticas, me encargaba de: reparación y mantenimiento de sistemas informáticos, implementación y 
-                       administración de Firewall en las instalaciones de clientes, soporte telefónico a clientes, alta de usuarios en sistema de fichaje, 
-                       administrador de AD y la configuración de Sistemas de Videovigilancia y AP Unifi.
-                    </p>
-                </div>
-            </div>
+        </div>
         </section>
-        <section class="container" id="portfolio">
-            <div class="main-title">
-                <h2>Mis <span>Proyectos</span><span class="bg-text">Mis Proyectos</span></h2>
-            </div>
-            <p class="port-text">
-                Estos son los proyectos en los que he participado y he desarrollado a día de hoy.
-            </p>
-            <div class="portfolios">
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/gadam.png" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>GADAM Gestión de Almacenes</h3>
-                        <div class="icons">
-                            <a href="https://github.com/idanirf/gadam" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                            <a href="https://www.youtube.com/watch?v=R6vK3x2md40" class="icon">
-                                <i class="fab fa-youtube"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/reciclajeMadrid.png" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>Reciclaje y Limpieza de Madrid</h3>
-                        <div class="icons">
-                            <a href="https://github.com/idanirf/AD-P1-drodriguez-ablanco" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                            
-                        </div>
-                    </div>
-                </div>
 
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/direHospitality.png" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>DireHospitality</h3>
-                        <div class="icons">
-                            <a href="https://github.com/idanirf/direHospitality" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                            
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/iesluisvives.png" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>ReservatyVives</h3>
-                        <div class="icons">
-                            <a href="https://github.com/idanirf/ReservatyVives" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/tennislab.png" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>TennisLab-Barcelona</h3>
-                        <div class="icons">
-                            <a href="https://github.com/idanirf/AD-P2-jsanchez-drodriguez-amaldonado" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                            <a href="https://github.com/idanirf/AD-03_TennisLab" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
+    <section id="educacion" class="section">
+    <h2 class="section-title">Educación Académica</h2>
+    <div class="education-grid">
+        <div class="education-card">
+            <div class="edu-icon">🎓</div>
+            <div class="edu-info">
+                <h3>Desarrollo de Aplicaciones Multiplataforma (DAM)</h3>
+                <p class="edu-school">Grado Superior</p>
+                <span class="edu-tag">Programación & Software</span>
+            </div>
+        </div>
 
-                        </div>
-                    </div>
-                </div>
-    
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/biquesDAM.jpg" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>BiquesDAM</h3>
-                        <div class="icons">
-                            <a href="https://github.com/idanirf/BiquesDAM" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                </div>
+        <div class="education-card">
+            <div class="edu-icon">⚙️</div>
+            <div class="edu-info">
+                <h3>Sistemas Microinformáticos y Redes</h3>
+                <p class="edu-school">Grado Medio</p>
+                <span class="edu-tag">Sistemas & Redes</span>
             </div>
-        </section>
-        <section class="container" id="blogs">
-            <div class="blogs-content">
-                <div class="main-title">
-                    <h2>Mi <span>Blog</span><span class="bg-text">Mi Blog</span></h2>
-                </div>
-                <div class="blogs">
-                    <div class="blog">
-                        <img src="img/helloWorld.png" alt="">
-                        <div class="blog-text">
-                            <h4>
-                               Hello World!
-                            </h4>
-                            <p>
-                                El primer hola mundo de mi web, no podía faltar
-                            </p>
-                        </div>
-                    </div>
-                </div>
+        </div>
+    </section>
+
+<section id="certificaciones" class="section">
+    <h2 class="section-title">Formación y Certificaciones Técnicas</h2>
+    <div class="certs-grid">
+        
+        <div class="cert-card">
+            <div class="cert-badge">☁️</div>
+            <div class="cert-content">
+                <h3>Kotlin Developer for Backend</h3>
+                <p>OpenWebinars · Certificado Profesional</p>
+                <a href="https://github.com/idanirf/Certifications/blob/master/kotlin_developer_for_backend.pdf" target="_blank" class="cert-date">Ver Credencial</a>
             </div>
-        </section>
-        <section class="container contact" id="contact">
-            <div class="contact-container">
-                <div class="main-title">
-                    <h2>Contacta <span>Conmigo</span><span class="bg-text">Contacta</span></h2>
+        </div>
+
+        <div class="cert-card">
+            <div class="cert-badge">🐍</div>
+            <div class="cert-content">
+                <h3>Conociendo PySpark</h3>
+                <p>OpenWebinars · Big Data & ML</p>
+                <a href="https://drive.google.com/file/d/1PjwiMKNqGUBUI558NrpxkrYjIomDb0hC/view" target="_blank" class="cert-date">Ver Credencial</a>
+            </div>
+        </div>
+
+        <div class="cert-card">
+            <div class="cert-badge">📊</div>
+            <div class="cert-content">
+                <h3>Curso Kotlin</h3>
+                <p>OpenWebinars · Certificación técnica</p>
+                <a href="https://openwebinars.net/cert/7QAI" target="_blank" class="cert-date">Ver Credencial</a>
+            </div>
+        </div>
+
+        <div class="cert-card highlight-bbva">
+            <div class="cert-badge">☁️</div>
+            <div class="cert-content">
+                <h3>Administrador Principiante</h3>
+                <p>Trailhead by Salesforce</p>
+                <span class="cert-date">Expedición: Jul. 2024</span>
+            </div>
+        </div>
+
+        <div class="cert-card highlight-bbva">
+            <div class="cert-badge">💻</div>
+            <div class="cert-content">
+                <h3>Desarrollador Principiante</h3>
+                <p>Trailhead by Salesforce</p>
+                <span class="cert-date">Expedición: Marzo. 2025</span>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+        <section id="proyectos" class="section">
+            <h2 class="section-title">Proyectos destacados</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>SIPECA - Sistema Integral de peluquerías caninas</h3>
+                    <p>Software diseñado y desarrollado para la gestión integral de peluquerías caninas, cumple con la funcionalidad de gestión de clientes, mascotas, facturación, inventario, generación de tickets, impuestos...</p>
+                    <a href="https://github.com/KitCatProgrammer/SIPECA" class="project-link">Ver proyecto →</a>
                 </div>
-                <div class="contact-content-con">
-                    <div class="left-contact">
-                        <h4>Contacta conmigo</h4>
-                        <p>
-                            Aquí dejo mis datos de contacto, puedes usar cualquiera de los medios
-                            que facilito para contactar conmigo.
-                        </p>
-                        <div class="contact-info">
-                            <div class="contact-item">
-                                <div class="icon">
-                                    <i class="fas fa-map-marker-alt"></i>
-                                    <span>Ubicacion:</span>
-                                </div>
-                                <p>
-                                    Leganés, Madrid
-                                </p>
-                            </div>
-                            <div class="contact-item">
-                                <div class="icon">
-                                    <i class="fas fa-envelope"></i>
-                                    <span>Email:</span>
-                                </div>
-                                <p>
-                                    <span> daniel.rodrifdez@gmail.com</span>
-                                </p>
-                            </div>
-                            <div class="contact-item">
-                                <div class="icon">
-                                    <i class="fas fa-user-graduate"></i>
-                                    <span>Educación:</span>
-                                </div>
-                                <p>
-                                    <span>IES Luis Vives</span>
-                                </p>
-                            </div>
-                            <div class="contact-item">
-                                <div class="icon">
-                                    <i class="fas fa-globe-africa"></i>
-                                    <span>Idiomas:</span>
-                                </div>
-                                <p>
-                                    <span>Español</span>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="contact-icons">
-                            <div class="contact-icon">
-                                <a href="https://www.linkedin.com/in/danielrodriguezfernandez03002/" target="_blank">
-                                    <i class="fab fa-linkedin"></i>
-                                </a>
-                                <a href="https://twitter.com/idanirf" target="_blank">
-                                    <i class="fab fa-twitter"></i>
-                                </a>
-                                <a href="https://github.com/idanirf" target="_blank">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="right-contact">
-                        <form action="" class="contact-form">
-                            <div class="input-control i-c-2">
-                                <input type="text" required placeholder="Nombre">
-                                <input type="email" required placeholder="Email">
-                            </div>
-                            <div class="input-control">
-                                <input type="text" required placeholder="Asunto">
-                            </div>
-                            <div class="input-control">
-                                <textarea name="" id="" cols="15" rows="8" placeholder="Mensaje ..."></textarea>
-                            </div>
-                            <div class="submit-btn">
-                                <a href="docs/cvDanielRodriguez.pdf" class="main-btn">
-                                    <span class="btn-text">Descargar CV</span>
-                                    <span class="btn-icon"><i class="fas fa-download"></i></span>
-                                </a>
-                            </div>
-                        </form>
-                    </div>
+                <div class="project-card">
+                    <h3>BiquesDAM</h3>
+                    <p>Los requisitos que tiene que cumplir dicho proyecto y se tratan de puntos importantes a evaluar. Algunos de estos requisitos mínimos son los siguientes: utilizar tres gestores de bases de datos diferentes, utilizar tanto Ktor como Springboot para crear los microservicios, tener diferentes microservicios, cada microservicio implementa sus propias operaciones CRUD, todos los microservicios deben estar protegidos así como sus rutas, se debe desplegar todas las bases de datos a través de docker, alguno de los modelos debe estar cacheados.</p>
+                    <a href="https://github.com/idanirf/BiquesDAM" class="project-link">Ver proyecto →</a>
+                </div>
+                <div class="project-card">
+                    <h3>Sistema de gestión de almacenes</h3>
+                    <p>Software dedicado a la gestión de almacenes, cumpliendo con la funcionalidad de inventario, exportacion de datos e importación, recepción y alta de mercancia, gestión de proveedores, generación de albaranes, realización de pedidos online por el cliente final, multiusario por perfilado, copias de seguridad.</p>
+                    <a href="https://github.com/idanirf/gadam" class="project-link">Ver proyecto →</a>
+                </div>
+                <div class="project-card">
+                    <h3>DireHospitality</h3>
+                    <p>Proyecto educativo para la generación y gestión de citas de un centro médico.</p>
+                    <a href="https://github.com/idanirf/direHospitality" class="project-link">Ver proyecto →</a>
                 </div>
             </div>
         </section>
     </main>
 
-    <div class="controls">
-        <div class="control active-btn" data-id="home" >
-            <i class="fas fa-home"></i>
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 Daniel Rodríguez Fernández.</p>
         </div>
-        <div class="control" data-id="about">
-            <i class="fas fa-user"></i>
-        </div>
-        <div class="control" data-id="portfolio">
-            <i class="fas fa-briefcase"></i>
-        </div>
-        <div class="control" data-id="contact">
-            <i class="fas fa-envelope-open"></i>
+    </footer>
+
+    <div id="contact-modal" class="modal-overlay">
+        <div class="modal-card">
+            <button class="modal-close" id="close-modal">&times;</button>
+            <div class="modal-header">
+                <div class="logo">DANI<span>RODRÍGUEZ</span></div>
+                <p>¿Hablamos? Estaré encantado de atenderte.</p>
+            </div>
+            <div class="modal-body">
+                <div class="contact-item">
+                    <span class="contact-icon">📧</span>
+                    <div>
+                        <label>Email</label>
+                        <a href="mailto:danielrodrifern@gmail.com">danielrodrifern@gmail.com</a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">📍</span>
+                    <div>
+                        <label>Ubicación</label>
+                        <p>Madrid, España</p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a href="mailto:danielrodrifern@gmail.com" class="btn-client">Enviar mensaje</a>
+            </div>
         </div>
     </div>
-    <div class="theme-btn">
-        <i class="fas fa-adjust"></i>
-    </div>
-    <script src="app.js"></script>
+
+    <script>
+        // Elementos
+        const themeBtn = document.getElementById('theme-toggle');
+        const contactBtn = document.getElementById('contact-trigger');
+        const modal = document.getElementById('contact-modal');
+        const closeBtn = document.getElementById('close-modal');
+
+        // Modo Oscuro
+        themeBtn.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+            const isDark = document.body.classList.contains('dark-mode');
+            localStorage.setItem('theme', isDark ? 'dark' : 'light');
+        });
+
+        // Cargar tema guardado
+        if (localStorage.getItem('theme') === 'dark') {
+            document.body.classList.add('dark-mode');
+        }
+
+        // Modal
+        contactBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            modal.classList.add('active');
+        });
+
+        closeBtn.addEventListener('click', () => modal.classList.remove('active'));
+
+        window.addEventListener('click', (e) => {
+            if (e.target === modal) modal.classList.remove('active');
+        });
+    </script>
 </body>
 </html>
